@@ -1,0 +1,34 @@
+Attacker.py:
+-------------------------------
+
+
+start infinite loop
+    take command from user 
+    sent into the database
+    waiting for the out put
+    print output after reciving
+
+
+
+Victim.py 
+------------------
+
+
+start infinite loop
+    randomly calling select query from database 
+    goes for operation when input detected
+    send the output to the database after compltion operation 
+
+
+both victim and Attacker will share a same document 
+
+{
+    input:'',
+    output:'',
+    isIssued:False,
+}
+
+
+1.
+2. os 
+3. 
